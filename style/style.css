@@ -1,0 +1,73 @@
+body{
+	margin:0px;
+	background: #BCB0AA;
+	mix-blend-mode: normal;
+	overflow:hidden;
+}
+.map{
+	width: 1203px;
+	height: 685px;
+	left: 50%;
+	top: 151px;
+	margin-left:-951px;
+	border:1px solid black;
+	overflow:scroll;
+	position:fixed;
+}
+#t1{
+	position:absolute;
+	background:red;
+	width:100px;
+	height:100px;
+	top:20px;
+	left:20px;
+}
+#info{
+	position:absolute;
+	background:green;
+}
+#black{
+	position:absolute;
+	background:#00000047;
+}
+.panel{
+	width:100%;
+	height: 89px;
+	border: 1px solid #000000;
+	font-size: 32px;
+	display: flex;
+}
+.gl, .mi, .pa, .prof{
+	border: 1px solid #000000;
+	height:100%;
+	font-size: 32px;
+	align-items: center;
+	text-align: center;
+	background: #215E81;
+	color:white;
+}
+.gl{
+	width: 192px;
+}
+.mi{
+	width: 148px;
+}
+.pa{
+	width: 240px;
+}
+.prof{
+	width: 1440px;
+}
+.a1{
+	position:relative;
+	top:25px;
+}
+.spisok{
+	margin-left:385px;
+	left:50%;
+	position:absolute;
+	background:red;
+	height: 685px;
+	width: 418px;
+	top: 151px;
+}

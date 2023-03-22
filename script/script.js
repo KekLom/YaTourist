@@ -1,0 +1,15 @@
+fn=function(){
+	info.style.width="0px";
+	info.style.height="0px";
+	black.style.height="0px";
+	black.style.width="0px";
+}
+t1.onclick=function(){
+	info.style.width="500px";
+	info.style.height="250px";
+	black.style.height="100%";
+	black.style.width="100%";
+}
+black.onclick=function(){
+	fn()
+}
