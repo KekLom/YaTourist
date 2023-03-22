@@ -1,6 +1,6 @@
 body{
 	margin:0px;
-	background: #BCB0AA;
+	background: #006C51;
 	mix-blend-mode: normal;
 	overflow:hidden;
 }
@@ -14,21 +14,62 @@ body{
 	overflow:scroll;
 	position:fixed;
 }
-#t1{
+#t1-1,#t1-2,#t1-3,#t1-4,#t1-5,#t1-6,#t1-7,#t1-8,#t1-9,#t1-10,#t1-11{
 	position:absolute;
 	background:red;
-	width:100px;
-	height:100px;
-	top:20px;
-	left:20px;
+	width:12.5px;
+	height:25px;
+	border-radius: 50px 50px 500% 500%;
+	text-align:center;
 }
-#info{
-	position:absolute;
-	background:green;
+#t1-1{
+	top:1010px;
+	left:565px;
 }
-#black{
-	position:absolute;
-	background:#00000047;
+#t1-2{
+	top:1010px;
+	left:505px;
+}
+#t1-3{
+	top:980px;
+	left:565px;
+}
+#t1-4{
+	top:989px;
+	left:565px;
+}
+#t1-5{
+	top:999px;
+	left:565px;
+}
+#t1-6{
+	top:999px;
+	left:540px;
+}
+#t1-7{
+	top:1050px;
+	left:540px;
+}
+#t1-8{
+	top:1050px;
+	left:500px;
+}
+#t1-9{
+	top:940px;
+	left:565px;
+}
+#t1-10{
+	top:1080px;
+	left:540px;
+}
+#t1-11{
+	top:1030px;
+	left:505px;
+}
+.t{
+	margin-top:25px;
+	margin-left:-15px;
+	color:#8b0f0f;
 }
 .panel{
 	width:100%;
@@ -43,20 +84,23 @@ body{
 	font-size: 32px;
 	align-items: center;
 	text-align: center;
-	background: #215E81;
-	color:white;
+	background: #62B479;
 }
 .gl{
 	width: 192px;
+	height: 91px;
 }
 .mi{
 	width: 148px;
+	height: 91px;
 }
 .pa{
 	width: 240px;
+	height: 91px;
 }
 .prof{
 	width: 1440px;
+	height: 91px;
 }
 .a1{
 	position:relative;
@@ -72,6 +116,7 @@ body{
 	border: 3px solid #000000;
 	overflow-x:hidden;
 	overflow-y:scroll;
+	background:#62B479;;
 }
 .sp{
 	width: 418px;
@@ -84,23 +129,26 @@ body{
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 42px;
+	color:black;
+	text-decoration:none;
+	background:none;
 }
 .spisok::-webkit-scrollbar {
     background-color: #00800000;
 }
 .spisok::-webkit-scrollbar-thumb {
-    background-color: #1C9588;
+    background-color: #006C51;
 }
 .footer{
 	margin-top:38.05%;
-	background:#215E81;
+	background:#62B479;
 	height:154px;
 	width:101%;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 26px;
-	color: #FFFFFF;
 	display:flex;
+	border:1px solid black;
 }
 .SS{
 	width:235px;
@@ -109,9 +157,140 @@ body{
 .kont{
 	width:404px;
 	height:100%;
-	border:3px solid black;
+	margin-top:-1px;
+	border:1px solid black;
 }
 .txt{
 	padding:31px;
 	width: 1050px;
+}
+#plus{
+	top:540px;
+	left:1080px;
+	position:absolute;
+	background:#7070705e;
+	width:100px;
+	height:100px;
+}
+#minus{
+	top:660px;
+	left:1080px;
+	position:absolute;
+	background:#7070705e;
+	width:100px;
+	height:100px;
+}
+.text, .text2{
+	position:absolute;
+	background:#62B479;
+	width: 1500px;
+	height: 560px;
+	top:117px;
+	left:50%;
+	margin-left:-800.5px;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 65px;
+	padding:50px;
+}
+.text2{
+	width: 1553px;
+	height: 680px;
+	padding:0px;
+	display:flex;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 54px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.yand{
+	position:absolute;
+	left:50%;
+	margin-left:-530px;
+}
+.goog{
+	position:absolute;
+	left:50%;
+	margin-left:42px;
+}
+.left, .right{
+	width:770.5px;
+	border:3px solid black;
+	height:100%;
+	margin-top:-3px;
+}
+.kart{
+	background:red;
+	width: 511px;
+	height: 341px;
+	margin-top:42px;
+	margin-left: 125px;
+}
+.otziv{
+	background:green;
+	width:100%;
+	margin-top:47px;
+	height:250px;
+}
+.otz{
+	background:#62B479;
+	width: 623px;
+	height: 121px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
+}
+.otz:hover, .gl:hover, .mi:hover, .pa:hover, .prof:hover, .sp:hover, .ostavit:hover, .otmena:hover{
+	background:#88d99e;
+}
+.otz:active, .gl:active, .mi:active, .pa:active, .prof:active, .sp:active .ostavit:active, .otmena:active{
+	background:#4a835a;
+}
+.ved{
+	margin-top:29px;
+	width: 624px;
+	height: 400px;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 44px;
+	/* display: flex; */
+	align-items: center;
+}
+.ostavit, .otmena{
+	width: 623px;
+	background: #62B479;
+	height: 97px;
+	margin-top:20px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
+}
+.contorl1, .contorl12{
+	margin-top:20px;
+	height: 75px;
+	width: 701px;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 49px;
+	align-items: center;
+	text-align:center;
+	background: #62B479;
+	color: #000000;
+	border: 3px solid #000000;
+}
+.q1{
+	width:701px;
+}
+.bq{
+	position:absolute;
+	left:50%;
+	margin-left:-350.0px;
+}
+.q2{
+	margin-top:40px;
+}
+.contorl12{
+	margin-top:-40px;
 }
