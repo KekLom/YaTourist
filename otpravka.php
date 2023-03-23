@@ -1,4 +1,7 @@
 <?php
+	if(empty($_SESION['name'])){
+		echo("123");
+	}
 	if(isset($_POST["ostavit"])){
 		// if($_COOKIE['user']==){
 			// exit();

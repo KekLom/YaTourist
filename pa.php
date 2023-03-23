@@ -12,24 +12,14 @@
 				<form action="index.html"><button class="gl">Главная</button></form>
 				<form action="mi.php"><button class="mi">О нас</button></form>
 				<form action="pa.php"><button class="pa">Партнёры</button></form>
-				<form action="prof.html"><button class="prof">Войти в профиль пользователя</button></form>
+				<form action="prof.html"><button class="prof"><?=$_COOKIE['user']?></button></form>
 			</div>
 		</header>
 		<main>
 			<div class="text">
-				<div class="bq">
-					<form action="check.php" method="post">
-						<div class="q1">
-							<input type="text" class="contorl1" name="name" id="potcha" placeholder="Имя пользователя">
-							<input type="text" class="contorl1" name="email" id="potcha" placeholder="Электронная почта">
-							<input type="password" class="contorl1" name="pass" id="parol" placeholder="Ведите пароль">
-						</div>
-						<div class="q2">
-							<button class="contorl1" id="w" type="submit">Зарегистрироваться</button>
-						</div>
-					</form>
-					<form action="prof.html"><button class="contorl12" id="w" type="submit">Войти</button></form>
-				</div>
+				<center><h1>Партнёры</h1></center>
+				<img src="img/yandex.jpg" height="346px" class="yand">
+				<img src="img/google.jpg" height="346px" class="goog">
 			</div>
 		</main>
 		<footer>

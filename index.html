@@ -10,16 +10,16 @@
 		<header>
 			<div class="panel">
 				<form action="index.html"><button class="gl">Главная</button></form>
-				<form action="mi.html"><button class="mi">О нас</button></form>
-				<form action="pa.html"><button class="pa">Партнёры</button></form>
-				<form action="prof.html"><button class="prof">Войти в профиль пользователя</button></form>
+				<form action="mi.php"><button class="mi">О нас</button></form>
+				<form action="pa.php"><button class="pa">Партнёры</button></form>
+				<form action="prof.html"><button class="prof"><?=$_COOKIE['user']?></button></form>
 			</div>
 		</header>
 		<main>
 			<div class="map">
 				<div id="map1">
 					<img src="img/map.jpg">
-					<form action="t1.html"><button id="t1-1"><p class="t">Чочур Муран</p></button></form>
+					<form action="t1.php"><button id="t1-1"><p class="t">Чочур Муран</p></button></form>
 					<div id="t1-2"><p class="t">Бэргэн</p></div>
 					<div id="t1-3"><p class="t">Мархинский дом</p></div>
 					<div id="t1-4"><p class="t">Пегас туристик</p></div>

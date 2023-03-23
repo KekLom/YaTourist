@@ -17,9 +17,12 @@
 		$a=false;
 		exit();
 	}
-	
+	if(empty($name)){
+		$name = 'Войти в профиль пользователя';
+	}
 	setcookie('user', $user['name'],time()+3600, "/");
 	setcookie('email', $user['email'],time()+3600, "/");
+	setcookie('a', $user['a'],time()+3600, "/");
 	setcookie('id', $user['id'],time()+3600, "/");
 	
 	$mysql->close();

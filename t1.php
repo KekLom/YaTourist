@@ -10,9 +10,9 @@
 		<header>
 			<div class="panel">
 				<form action="index.html"><button class="gl">Главная</button></form>
-				<form action="mi.html"><button class="mi">О нас</button></form>
-				<form action="pa.html"><button class="pa">Партнёры</button></form>
-				<form action="prof.html"><button class="prof">Войти в профиль пользователя</button></form>
+				<form action="mi.php"><button class="mi">О нас</button></form>
+				<form action="pa.php"><button class="pa">Партнёры</button></form>
+				<form action="prof.html"><button class="prof"><?=$_COOKIE['user']?></button></form>
 			</div>
 		</header>
 		<main>
