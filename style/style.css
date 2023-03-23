@@ -222,17 +222,30 @@ body{
 	margin-top:-3px;
 }
 .kart{
-	background:red;
+	/* background:red; */
 	width: 511px;
 	height: 341px;
 	margin-top:42px;
 	margin-left: 125px;
 }
 .otziv{
-	background:green;
+	border:3px solid black;
+	/* background:green; */
 	width:100%;
-	margin-top:47px;
+	margin-left:-3px;
+	margin-top:44px;
 	height:250px;
+	/* color:white; */
+	text-align:left;
+	overflow-x:hidden;
+	hyphens:auto;
+	overflow-y:scroll;
+}
+.otziv::-webkit-scrollbar {
+    background-color: #00800000;
+}
+.otziv::-webkit-scrollbar-thumb {
+    background-color: #006C51;
 }
 .otz{
 	background:#62B479;
@@ -242,14 +255,14 @@ body{
 	font-size: 32px;
 	line-height: 44px;
 }
-.otz:hover, .gl:hover, .mi:hover, .pa:hover, .prof:hover, .sp:hover, .ostavit:hover, .otmena:hover{
+.otz:hover, .gl:hover, .mi:hover, .pa:hover, .prof:hover, .sp:hover, .ostavit:hover, .contorl1:hover, .contorl12:hover, .otmena:hover{
 	background:#88d99e;
 }
-.otz:active, .gl:active, .mi:active, .pa:active, .prof:active, .sp:active .ostavit:active, .otmena:active{
+.otz:active, .gl:active, .mi:active, .pa:active, .prof:active, .sp:active,.contorl1:active, .contorl12:active, .ostavit:active, .otmena:active{
 	background:#4a835a;
 }
 .ved{
-	margin-top:29px;
+	margin-top:20px;
 	width: 624px;
 	height: 400px;
 	font-weight: 400;
@@ -262,10 +275,13 @@ body{
 	width: 623px;
 	background: #62B479;
 	height: 97px;
-	margin-top:20px;
+	margin-top:-20px;
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 44px;
+}
+.ostavit{
+	margin-top:30px;
 }
 .contorl1, .contorl12{
 	margin-top:20px;

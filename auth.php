@@ -1,12 +1,8 @@
 <?php
 
-	$email = filter_var(trim($_POST['email']),
-	FILTER_SANITIZE_STRING);
 	$pass = filter_var(trim($_POST['pass']),
 	FILTER_SANITIZE_STRING);
 	$name = filter_var(trim($_POST['name']),
-	FILTER_SANITIZE_STRING);
-	$chem = filter_var(trim($_POST['chem']),
 	FILTER_SANITIZE_STRING);
 	$id = 1;
 
@@ -21,6 +17,7 @@
 		$a=false;
 		exit();
 	}
+	
 	setcookie('user', $user['name'],time()+3600, "/");
 	setcookie('email', $user['email'],time()+3600, "/");
 	setcookie('id', $user['id'],time()+3600, "/");
